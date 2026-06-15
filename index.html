@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewellery Project</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar">
+    <div class="logo">
+        <img src="./v.png" alt="Logo">
+        <h3>GOAD AURA</h3>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Collections</a></li>
+        <li><a href="#">New Arrivals</a></li>
+        <li><a href="#">Bridal Jewellery</a></li>
+    </ul>
+
+   <button class="contact-btn">
+    <span class="icon">
+        <img src="./Ellipse 1.png" class="circle" alt="">
+        <img src="./_.png" class="arrow" alt="">
+    </span> Contact</button>
+</nav>
+
+<div class="first-page"> <br> 
+   <div class="">
+      <img src="./Rectangle 3.png" class="png-2"> <br>
+      <img src="./Rectangle 4.png" class="png-1"> <br>
+      <img src="./Rectangle 5.png" class="png-1">
+   </div>
+   <div> 
+    <h2 class="line">Jewellery Made for Every Mood</h2>
+    <h3 class="line-2">"Every Gem Tells Your Story."</h3> <br> <br>
+   </div>
+
+</div>
+
+
+<div class="second-page">
+
+    <div class="loader">
+        <div class="ball"></div>
+    </div>
+
+    <div class="heading">
+
+        <h4 class="beuty">
+            Beautifully handcrafted
+        </h4>
+
+        <img src="./jewellery.png" class="jewellery">
+
+        <img src="./v.png" class="div">
+
+    </div>
+
+    <div class="first-row">
+
+        <img src="./Rectangle 7.png" class="border">
+
+        <div class="content1">
+
+            <h4 class="model">
+                MODLE RINGS
+            </h4>
+
+            <p class="p-1">
+                From delicate everyday wear to statement bridal collections,<br>
+                Our jewellery celebrates every moment that makes you shine.<br>
+                With quality craftsmanship
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="second-row">
+
+        <div class="content2">
+
+            <p class="p-2">
+                From delicate everyday wear to statement bridal collections,<br>
+                Our jewellery celebrates every moment that makes you shine.<br>
+                With quality craftsmanship
+            </p>
+
+            <h4 class="models">
+                DIAMOND
+            </h4>
+
+        </div>
+
+        <img src="./Rectangle 8.png" class="border1">
+
+    </div>
+
+</div>
+
+<div class="third-page">
+        <img src="./Rectangle 9.png" class="image">
+        <div class="card0">
+            <h3 class="letter-1">Rich, Royal Look.</h3>
+            <p class="graph">Each piece in our collection is crafted with passion, precison, <br> and timeless beauty, blending traditional artistry with modern <br> elegance</p>
+            <img src="./Rectangle 11.png" class="picture1">
+            <img src="./Rectangle 13.png" class="picture1">
+            <img src="./Rectangle 14.png" class="picture1">
+            <img src="./Frame 10.png" class="picture">
+        </div>
+</div>
+
+<div class="third-page1">
+        <img src="./Property 1=Frame 5.png" class="image">
+        <div class="card20">
+            <h3 class="letter-1">Rich, Royal Look.</h3>
+            <p class="graph">Each piece in our collection is crafted with passion, precison, <br> and timeless beauty, blending traditional artistry with modern <br> elegance</p>
+            <img src="./Property 1=Frame 5 (1).png" class="picture1">
+            <img src="./Rectangle 18.png" class="picture1">
+            <img src="./Rectangle 19.png" class="picture1">
+            <img src="./Rectangle 20.png" class="picture">
+        </div>
+</div>
+<div class="third-page1">
+        <img src="./Rectangle 21.png" class="image">
+        <div class="card30">
+            <h3 class="letter-1">Rich, Royal Look.</h3>
+            <p class="graph">Each piece in our collection is crafted with passion, precison, <br> and timeless beauty, blending traditional artistry with modern <br> elegance</p>
+            <img src="./Rectangle 20.png" class="picture1">
+            <img src="./Rectangle 18.png" class="picture1">
+            <img src="./Rectangle 19.png" class="picture1">
+            <img src="./Frame 12.png" class="picture">
+        </div>
+</div>
+<script>
+
+const cards = document.querySelectorAll(
+".card0,.card20,.card30"
+);
+
+window.addEventListener("scroll", ()=>{
+
+    cards.forEach(card=>{
+
+        const top = card.getBoundingClientRect().top;
+
+        const screenHeight = window.innerHeight;
+
+        if(top < screenHeight - 100){
+
+            card.classList.add("show");
+
+        }
+
+    });
+
+});
+
+</script>
+
+<div class="fourth-page">
+   <h2 class="word">Our Collection</h2>
+   <p class="fourth">Each piece in our collection is crafted with passion,<br> precison, and timeless beauty, blending traditional <br> artistry with modern elegance</p>
+   <button class="button">See More</button>
+   <div class="photo">
+    <div class="slider">
+   <img src="./Frame 12.png" class="slide">
+   <img src="./Rectangle 20.png" class="slide">
+   <img src="./Frame 10.png" class="slide" >
+   <img src="./Rectangle 36.png" class="slide">
+   <img src="./Rectangle 38.png" class="slide">
+   <img src="./Rectangle 43.png" class="slide">
+   <img src="./Rectangle 37.png" class="slide">
+
+    </div>
+   
+    <h6 class="head">Bracelet <br> $200</h6>
+    <h6 class="head1">Chain <br> $200</h6>
+    <h6 class="head11">Ring <br> $200</h6> 
+
+    <i class="fa-solid fa-angle-left" style="color: white;font-size: 15px;margin-left: 910px;margin-top: 30px;"></i>
+    <i class="fa-solid fa-angle-right" style="color: white;font-size: 15px;margin-left: 30px;"></i>
+   </div>
+</div>
+
+<div class="fifth-page">
+
+    <img src="./Rectangle 32.png" class="fifth"> 
+    <img src="./Vector (3).png" class="overlay">    
+    <div class="margin"> 
+    <h5 class="choose">Choose The type</h5>
+    <p class="break">Each piece in our collection is crafted with passion,<br> precison, and timeless beauty, blending traditional <br> artistry with modern elegance</p>
+     <div class="one">
+       <img src="./Rectangle 32.png" class="contain">
+       <h5 class="ring">Ring</h5>
+       <i class="fa-solid fa-circle-arrow-right" style="font-size: 28px;color: white;margin-left: 64px;margin-top: 20px;"></i>
+     </div>
+      <div class="one">
+       <img src="./Ellipse 6.png" class="contain">
+       <h5 class="ring">Bracelet</h5>
+        <i class="fa-solid fa-circle-arrow-right" style="font-size: 28px;color: white;margin-left: 64px;margin-top: 20px;"></i>
+     </div>
+      <div class="one">
+       <img src="./Rectangle 21.png" class="contain">
+       <h5 class="ring">Bangles</h5>
+        <i class="fa-solid fa-circle-arrow-right" style="font-size: 28px;color: white;margin-left: 60px;margin-top: 20px;"></i>
+     </div>
+    </div>
+
+</div>
+
+ <div class="sixth-page">
+
+    <h4 class="gallex">Gallery</h4>
+    <br><br> 
+
+    <div class="card card1">
+        <div class="inner">
+            <div class="front">
+                <img src="./Rectangle 36.png" alt="">
+            </div>
+            <div class="back">
+                <h3>Diamond Ring</h3>
+                <p>Premium diamond ring with elegant and timeless design.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card card2">
+        <div class="inner">
+            <div class="front">
+                <img src="./Rectangle 37.png" alt="">
+            </div>
+            <div class="back">
+                <h3>Gold Necklace</h3>
+                <p>Luxury handcrafted necklace for special occasions.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card card3">
+        <div class="inner">
+            <div class="front">
+                <img src="./Rectangle 38.png" alt="">
+            </div>
+            <div class="back">
+                <h3>Bridal Set</h3>
+                <p>Beautiful bridal jewellery collection with royal finish.</p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="card card4">
+        <div class="inner">
+            <div class="front">
+                <img src="./Rectangle 32.png" alt="">
+            </div>
+            <div class="back">
+                <h3>Pearl Collection</h3>
+                <p>Graceful pearl jewellery crafted with perfection.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card card5">
+        <div class="inner">
+            <div class="front">
+                <img src="./Rectangle 20.png" alt="">
+            </div>
+            <div class="back">
+                <h3>Luxury Earrings</h3>
+                <p>Elegant earrings designed for modern beauty.</p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="card card6">
+        <div class="inner">
+            <div class="front">
+                <img src="./Rectangle 8.png" alt="">
+            </div>
+            <div class="back">
+                <h3>Gold Bracelet</h3>
+                <p>Stylish bracelet with premium golden finish.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card card7">
+        <div class="inner">
+            <div class="front">
+                <img src="./Frame 12.png" alt="">
+            </div>
+            <div class="back">
+                <h3>Royal Pendant</h3>
+                <p>Classic pendant collection inspired by luxury.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card card8">
+        <div class="inner">
+            <div class="front">
+                <img src="./Rectangle 43.png" alt="">
+            </div>
+            <div class="back">
+                <h3>Wedding Jewellery</h3>
+                <p>Exclusive wedding collection with stunning details.</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<h3 class="seven">Testimonial</h3>
+
+<input type="checkbox" id="open-card">
+
+<div class="seven-page">
+    <img src="./Rectangle 45.png" class="phone1">
+    <img src="./Rectangle 46.png" class="phone">
+
+    <label for="open-card" class="in">
+        <h5 class="out">Marry jone</h5>
+        <img src="./Rectangle 47.png" class="refer">
+        <h5 class="main">
+            With quality craftsmanship, genuine materials, and design that <br>
+            speak from the heart, We aim to make luxury accessible and <br>
+            unforgettable.
+        </h5>
+    </label>
+
+    <img src="./Rectangle 48.png" class="phone2">
+    <img src="./Rectangle 49.png" class="phone">
+</div>
+
+
+<footer class="footer">
+     <h3 class="con">Contact</h3>
+     <p class="last">We'd love to hear from you! Whether you have a question about our <br> collections, need help with a custom order, or simply want to share your <br> sparkle story - We're here for you.</p>
+     <h4 class="working">Working Hours: Mon - Sat <br> 10:00 AM - 8:00 Pm <br> <br> Gmail: Vjewellery@gamil.com</h4>
+     <div>
+        <h5 class="brand">BRANCHES</h5>
+        <img src="./Rectangle 51.png" class="range1">
+        <img src="./Rectangle 52.png" class="range">
+        <img src="./4-7.jpg" class="range">
+        <img src="./Rectangle 53.png" class="range">
+        <img src="./Rectangle 54.png" class="range">
+     </div>
+</footer>
+
+</body>
+</html>
